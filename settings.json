@@ -1,0 +1,47 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "SF Mono, Consolas, 'Courier New', monospace",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.compactFolders": false,
+    "editor.formatOnSave": true,
+    "git.autofetch": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.startupEditor": "terminal",
+    "explorer.fileNesting.patterns": {
+        "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "terminal.integrated.fontSize": 11,
+    "debug.console.fontSize": 11,
+    "editor.fontSize": 13,
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "codeium.enableConfig": {
+        "*": true
+    },
+    "codeium.aggressiveShutdown": true,
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/nguye/Documents/style.css"
+    ],
+    // ===== Theme =====
+    "workbench.colorTheme": "Evondev Dracula Normal Contrast"
+}
