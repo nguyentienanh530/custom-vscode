@@ -109,7 +109,7 @@
 }
 
 /* Other */
-/* .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item.checked .active-item-indicator:before {
+.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item.checked .active-item-indicator:before {
     border: 0;
     width: 3px;
     height: 100%;
@@ -117,18 +117,18 @@
     top: 0;
     left: 0;
     background-image: linear-gradient(to bottom, #fc6c8f, #ff2ced);
-} */
+}
 
 
-/* .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active:after {
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active:after {
     top: 0;
     right: 0;
     border-left: 0;
     border-bottom: 0;
     border-image-source: linear-gradient(-45deg, #098dff, #2cccff);
-} */
+}
 
-/* .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container {
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container {
     background-size: 400% 400%;
     background-image: linear-gradient(-45deg,
             #fc6c8f,
@@ -141,9 +141,9 @@
             #4158d0);
     animation: gradient 5s ease alternate infinite;
     height: 3px;
-} */
+}
 
-/*.monaco-workbench .part.panel.bottom .composite.title {
+/* .monaco-workbench .part.panel.bottom .composite.title {
     background-size: 400% 400%;
     background-image: linear-gradient(-45deg,
             #fc6c8f,
@@ -152,14 +152,14 @@
             #2cccff,
             #20e3b2,
             #ffcc70,
-            /* #c850c0, */
-/* #4158d0);
+            #c850c0,
+            #4158d0);
     animation: gradient 5s ease alternate infinite;
     height: 35px;
 } */
 
 
-/* @keyframes gradient {
+@keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -171,17 +171,13 @@
     100% {
         background-position: 0% 50%;
     }
-} */
+}
 
-/* .monaco-editor .cursors-layer .cursor {
+.monaco-editor .cursors-layer .cursor {
     background-image: linear-gradient(45deg,
             #6a5af9,
             #ff2ced,
             #ffb4dc,
             #fc6c8f,
             #0f0a03);
-} */
-
-
-
-/*  */
+}
